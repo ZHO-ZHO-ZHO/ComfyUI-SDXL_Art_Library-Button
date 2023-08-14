@@ -18,16 +18,16 @@ app.registerExtension({
 
         // 创建SDXL_Art_Library按钮
         const SDXL_Art_Library = document.createElement("button");
-        SDXL_Art_Library.textContent = "SDXL1.0艺术库";
+        SDXL_Art_Library.textContent = "SDXL_Art_Library";
         SDXL_Art_Library.onclick = () => {
-            window.open("https://rikkar69.github.io/SDXL-artist-study/art-movements/", "SDXL1.0艺术库");
+            window.open("https://rikkar69.github.io/SDXL-artist-study/", "SDXL1.0艺术库");
         };
         // 将按钮添加到菜单
         menu.append(SDXL_Art_Library);
 
         // 创建C站按钮
         const CivitaiButton = document.createElement("button");
-        CivitaiButton.textContent = "C站";
+        CivitaiButton.textContent = "Civitai";
         CivitaiButton.onclick = () => {
             window.open("https://civitai.com/", "C站");
         };
@@ -45,7 +45,7 @@ app.registerExtension({
 
         // 创建艺术家库按钮
         const Aesthetic_datasetteButton = document.createElement("button");
-        Aesthetic_datasetteButton.textContent = "艺术家库";
+        Aesthetic_datasetteButton.textContent = "Aesthetic_D";
         Aesthetic_datasetteButton.onclick = () => {
             window.open("https://laion-aesthetic.datasette.io/laion-aesthetic-6pls/images", "Aesthetic_datasetteButton");
         };
