@@ -20,7 +20,7 @@ app.registerExtension({
         const SDXL_Art_Library = document.createElement("button");
         SDXL_Art_Library.textContent = "SDXL1.0艺术库";
         SDXL_Art_Library.onclick = () => {
-            window.open("https://rikkar69.github.io/SDXL-artist-study/art-movements/", "SDXL1.0艺术库");
+            window.open("https://rikkar69.github.io/SDXL-artist-study/", "SDXL1.0艺术库");
         };
         // 将按钮添加到菜单
         menu.append(SDXL_Art_Library);
@@ -43,9 +43,9 @@ app.registerExtension({
         // 将按钮添加到菜单
         menu.append(MidlibraryButton);
 
-        // 创建艺术家库按钮
+        // 创建提示词库按钮
         const Aesthetic_datasetteButton = document.createElement("button");
-        Aesthetic_datasetteButton.textContent = "艺术家库";
+        Aesthetic_datasetteButton.textContent = "提示词库";
         Aesthetic_datasetteButton.onclick = () => {
             window.open("https://laion-aesthetic.datasette.io/laion-aesthetic-6pls/images", "Aesthetic_datasetteButton");
         };
