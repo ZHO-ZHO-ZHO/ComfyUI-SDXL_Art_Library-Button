@@ -21,7 +21,7 @@ app.registerExtension({
 		const SDXL_Art_Library = document.createElement("button");
 		SDXL_Art_Library.textContent = "SDXL1.0艺术库";
 		SDXL_Art_Library.onclick = () => { 
-			window.open("https://rikkar69.github.io/SDXL-artist-study/art-movements/", "SDXL1.0艺术库"); 
+			window.open("https://rikkar69.github.io/SDXL-artist-study/", "SDXL1.0艺术库"); 
 		};
 
 		// 将按钮添加到菜单
